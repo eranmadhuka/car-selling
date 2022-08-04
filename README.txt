@@ -1,5 +1,4 @@
-# Car Sales Management System
-
+Car Sales Management System
 
 Database - car_selling.sql
 

@@ -1,0 +1,225 @@
+
+body {
+  font-family: 'Raleway', 'sans-serif';
+  background-color: #fcfcfc;
+  color: #666;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #123652;
+  font-weight: 700;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 15px;
+  color: #7c7c7c;
+  line-height: 24px;
+  left: 0.25px;
+  font-weight: 500;
+}
+
+a{
+  color: #123652;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+section {
+  padding: 50px 0;
+}
+
+/* Navbar */
+.nav-links{
+  color: #fff;
+  font-size: 50px;
+}
+
+/* Car Details */
+
+.car-details h5{
+  font-size: 16px;
+}
+
+.car-details span{
+  font-size: 14px;
+  color: #123652;
+}
+
+footer {
+  padding: 80px 0px 70px 0px;
+  border-top: 1px solid #ddd;
+  background: #123652;
+}
+
+footer .footer-heading h4 {
+  font-size: 21px;
+  color: #fff;
+  letter-spacing: 0.5px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+footer .about .logo {
+  margin-bottom: 40px;
+}
+
+footer .about ul li a {
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  text-align: center;
+  line-height: 32px;
+  border-radius: 50%;
+  font-size: 15px;
+  color: #fff;
+  margin-right: 3px;
+  transition: all 0.5s;
+}
+
+footer .about p {
+  margin-bottom: 25px;
+  color: #fff;
+}
+
+footer .useful-links ul li {
+  margin-bottom: 12px;
+}
+
+footer .useful-links ul li a {
+  font-size: 15px;
+  color: #fff;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+footer .useful-links ul li i {
+  color: #fff;
+  font-size: 6px;
+  position: relative;
+  top: -3px;
+  margin-right: 8px;
+}
+
+footer .contact-info p {
+  margin-bottom: 25px;
+}
+
+footer .contact-info ul li {
+  margin: 10px 0px;
+}
+
+footer .contact-info ul li span {
+  font-size: 13px;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  width: 80px;
+  display: inline-block;
+}
+
+footer .contact-info p{
+  color: #fff;
+}
+
+footer .contact-info ul li a {
+  font-size: 13px;
+  color: #fff;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+}
+
+.sub-footer p {
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 0px;
+  padding: 0px;
+  font-size: 15px;
+  color: #fff;
+}
+
+.sub-footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 25vh;
+  min-height: 25vh;;
+  object-fit: cover;
+}
+
+.card:hover{
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+  font-size: 1rem;
+  line-height: 2.15;
+  padding-left: .75em;
+  padding-right: .75em;
+  }
+  .card-registration .select-arrow {
+  top: 13px;
+  }
+
+
+/* Dashboard */
+.dashboard ul li a{
+  border-radius: 5px;
+  margin: 5px;
+  padding: 0 10px;
+}
+.dashboard ul li:hover{
+  background-color: #ebfbf4;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.db-active{
+  background-color: #ebfbf4 !important;
+} 
+
+.v_card{
+  max-width: 310px;
+  border: 1px solid rgba(102, 102, 102, 0.336);
+  padding: 5px;
+  border-radius: 5px;
+  margin: 5px auto;
+  cursor: pointer;
+  width: 100%;
+}
+.v_card:hover{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+ 
+.results tr[visible='false'],
+.no-result{
+  display:none;
+}
+
+.results tr[visible='true']{
+  display:table-row;
+}
+
+.counter{
+  padding:8px; 
+  color:#ccc;
+}
+
+ 
+ 
