@@ -384,7 +384,7 @@ function isUpdate(){
         $.ajax({
             type : "POST",
             url : 'sql/sql_user.php',
-            data : {functionName : 'DATAUPDATE' , isuserid : userid, isuserfullname : userfullname , isuseremail : useremail , isusertel : usertel , isuseraddress : useraddress , isusercity : usercity} , 
+            data : {functionName : 'ADMINUSERUPDATE' , isuserid : userid, isuserfullname : userfullname , isuseremail : useremail , isusertel : usertel , isuseraddress : useraddress , isusercity : usercity} , 
             dataType : 'Json',
             success : function(res){
                 // console.log(res);
